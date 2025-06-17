@@ -193,3 +193,69 @@
         color: #ffffff;
 
     }
+
+.footer {
+    background-color: #ffffff;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .caixa-rodape {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+
+  .fudoo {
+    flex: 1 1 200px;
+    max-width: 250px;
+  }
+  
+  .fudoo img {
+    width: 100px;
+    margin-bottom: 15px;
+  }
+  
+  .fudoo p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .fudoo p:last-child {
+    color: #e63946;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  form {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  form input[type="email"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    width: 150px;
+    font-size: 14px;
+  }
+  
+  form button {
+    padding: 8px 15px;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+    
